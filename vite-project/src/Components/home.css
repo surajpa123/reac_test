@@ -1,0 +1,19 @@
+.maindiv{
+    width: 60%;
+    border: 3px solid teal;
+   margin: auto;
+   text-align: center;
+   margin-top:3%;
+}
+
+button{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.maindiv > div{
+
+width: 70%;
+margin: auto;
+margin-bottom: 5%;
+}

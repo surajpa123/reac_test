@@ -1,0 +1,44 @@
+{
+  "cities": [
+    {
+      "city": "prayagraj",
+      "population": "300000",
+      "country": "india",
+      "id": 4
+    },
+    {
+      "city": "california",
+      "population": "300000",
+      "country": "usa",
+      "id": 5
+    },
+    {
+      "city": "Rewa",
+      "population": "300000",
+      "country": "India",
+      "id": 6
+    },
+    {
+      "city": "Jammu",
+      "population": "300000",
+      "country": "India",
+      "id": 7
+    },
+    {
+      "city": "Himanchal",
+      "population": "400000",
+      "country": "India",
+      "id": 8
+    }
+  ],
+  "country": [
+    {
+      "country": "usa",
+      "id": 1
+    },
+    {
+      "country": "india",
+      "id": 2
+    }
+  ]
+}
