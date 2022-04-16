@@ -2,10 +2,22 @@ import React, { useState } from 'react'
 import axios from "axios"
 import style from "../Components/home.css"
 import {Link} from "react-router-dom"
+import { useDispatch ,useSelector} from "react-redux";
+import { change_city,change_country,change_population } from '../../Redux/action';
 export default function Home() {
     const [data,setData] = useState()
    const [s,sets] = useState(false)
    const [count,setCount] = useState(0)
+
+   const dispatch = useDispatch();
+
+
+const Store = useSelector((store)=>
+   store
+)
+
+console.log("ss",Store.city)
+
 React.useEffect(()=>{
     getData()
     removeData()
@@ -51,6 +63,7 @@ React.useEffect(()=>{
     const getData = ()=>{
         axios.get("http://localhost:8080/cities").then(function(res){
             setData(res.data)
+            dispatch(change_city(data))
         })
     }
 console.log(data)
@@ -62,7 +75,7 @@ console.log(data)
         })
         setCount(1)
         getData()
-        console.log(data)
+        // console.log(data)
     }
 
   return (
