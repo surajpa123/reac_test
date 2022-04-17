@@ -1,27 +1,27 @@
 {
   "cities": [
     {
-      "city": "prayagraj",
-      "population": "300000",
-      "country": "india",
+      "city": "gujrat",
+      "population": "2000",
+      "country": "ind",
       "id": 4
     },
     {
-      "city": "california",
-      "population": "300000",
-      "country": "usa",
+      "city": "gujrat",
+      "population": "20000",
+      "country": "ind",
       "id": 5
     },
     {
-      "city": "rewa",
-      "population": "40000",
-      "country": "india",
+      "city": "ppp",
+      "population": "4646",
+      "country": "usa",
       "id": 6
     },
     {
-      "city": "rewa",
-      "population": "40000",
-      "country": "india",
+      "city": "lahore",
+      "population": "200000",
+      "country": "pak",
       "id": 7
     },
     {

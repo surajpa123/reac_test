@@ -6,6 +6,7 @@ import Addcity from './Components/Addcity'
 import Addcountry from './Components/Addcountry'
 import Home from './Components/Home'
 import PageNotFOund from './Components/PageNotFOund'
+import Edit from './Components/Edit'
 function App() {
 
 
@@ -16,6 +17,7 @@ function App() {
 <Route path='/add-country' element={<Addcountry/>}/>
 <Route path='/*' element={<PageNotFOund/>}></Route>
 <Route path='/' element={<Home/>}></Route>
+<Route path='/edit/:id' element = {<Edit/>}></Route>
       </Routes>
      
 

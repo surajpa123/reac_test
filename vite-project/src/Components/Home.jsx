@@ -107,7 +107,7 @@ console.log(data)
                        <td>{e.country}</td>
                        <td>{e.city}</td>
                        <td>{e.population}</td>
-                       <td><button>Edit</button></td>
+                       <td> <Link to= {`/edit/${e.id}`}><button>Edit</button></Link></td>
                        <td><button onClick={()=>removeData(e.id)}>Delete</button></td>
                        </tr>
                    )
