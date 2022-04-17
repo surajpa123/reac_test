@@ -26,10 +26,8 @@ const navigate = useNavigate()
   
 
   }
-
-
   return (
-    <div>Addcity
+    <div><h1>Update Information</h1>
   <input type="text" placeholder='City name' onChange={(e)=>{setCity(e.target.value)}}/>
   <input type="text" placeholder='Population' onChange={(e)=>{setPopulation(e.target.value)}}/>
   <input type="text" placeholder='Country' onChange={(e)=>{setCoun(e.target.value)}}/>
