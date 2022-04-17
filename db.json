@@ -7,28 +7,22 @@
       "id": 4
     },
     {
-      "city": "gujrat",
-      "population": "20000",
-      "country": "ind",
+      "city": "punjab",
+      "population": "400000",
+      "country": "india",
       "id": 5
     },
     {
-      "city": "ppp",
-      "population": "4646",
-      "country": "usa",
+      "city": "gujrat",
+      "population": "2000000",
+      "country": "india",
       "id": 6
     },
     {
-      "city": "lahore",
-      "population": "200000",
-      "country": "pak",
-      "id": 7
-    },
-    {
-      "city": "rewa",
-      "population": "40000",
+      "city": "gujrat",
+      "population": "2000000",
       "country": "india",
-      "id": 8
+      "id": 7
     }
   ],
   "country": [
